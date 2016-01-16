@@ -20,7 +20,7 @@ Please use the tilde range specifier in your package.json to pin to a fixed majo
 ## Install
 
 ```js
-npm install @ebay/jquery-prevent-document-scroll-keys --save
+npm install @ebay/jquery-prevent-document-scroll-keys
 ```
 
 ## Example
@@ -28,6 +28,10 @@ npm install @ebay/jquery-prevent-document-scroll-keys --save
 ```js
 $('.tabs [role=tab]').preventDocumentScrollKeys();
 ```
+
+## Dependencies
+
+* [jquery-common-keys](https://github.com/ianmcburnie/jquery-common-keys)
 
 ## Development
 
