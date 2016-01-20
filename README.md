@@ -31,7 +31,8 @@ $('.tabs [role=tab]').preventDocumentScrollKeys();
 
 ## Dependencies
 
-* [jquery-common-keys](https://github.com/ianmcburnie/jquery-common-keys)
+* [jquery](https://jquery.com/)
+* [jquery-common-keydown](https://github.com/ianmcburnie/jquery-common-keydown)
 
 ## Development
 
