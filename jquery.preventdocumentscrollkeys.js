@@ -1,7 +1,7 @@
 /**
 * @name @ebay/jquery-prevent-document-scroll-keys
 * @function $.fn.preventDocumentScrollKeys
-* @version 0.3.0
+* @version 0.3.1
 * @author Ian McBurnie <ianmcburnie@hotmail.com>
 * @desc Prevent main page scroll when pressing any scroll key (e.g. down arrow, spacebar) with focus on given selector.
 * @requires @ebay/jquery-common-keydown
