@@ -1,5 +1,5 @@
 {
-  "name": "@ebay/jquery-prevent-document-scroll-keys",
+  "name": "jquery-prevent-document-scroll-keys",
   "description": "Prevent main document scroll when pressing any scroll key (e.g. down arrow, spacebar) when on a widget",
   "version": "0.3.1",
   "scripts": {
@@ -42,10 +42,10 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "phantomjs": "^1.9.18",
     "rimraf": "^2.4.4",
-    "@ebay/jquery-common-keydown": "~0.0.0"
+    "jquery-common-keydown": "~0.0.0"
   },
   "peerDependencies": {
     "jquery": ">=1.11 < 3",
-    "@ebay/jquery-common-keydown": "~0.0.0"
+    "jquery-common-keydown": "~0.0.0"
   }
 }

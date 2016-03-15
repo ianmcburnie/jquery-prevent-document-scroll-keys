@@ -1,4 +1,4 @@
-# @ebay/jquery-prevent-document-scroll-keys
+# jquery-prevent-document-scroll-keys
 
 <p>
     <a href="https://travis-ci.org/ianmcburnie/jquery-prevent-document-scroll-keys"><img src="https://api.travis-ci.org/ianmcburnie/jquery-prevent-document-scroll-keys.svg?branch=master" alt="Build Status" /></a>
@@ -20,7 +20,7 @@ This plugin is still in an experimental state, until it reaches v1.0.0 you must 
 ## Install
 
 ```js
-npm install @ebay/jquery-prevent-document-scroll-keys
+npm install jquery-prevent-document-scroll-keys
 ```
 
 ## Example
@@ -32,7 +32,7 @@ $('.tabs [role=tab]').preventDocumentScrollKeys();
 ## Dependencies
 
 * [jquery](https://jquery.com/)
-* [@ebay/jquery-common-keydown](https://github.com/ianmcburnie/jquery-common-keydown)
+* [jquery-common-keydown](https://github.com/ianmcburnie/jquery-common-keydown)
 
 ## Development
 
