@@ -1,7 +1,7 @@
 /**
 * @file Prevent main page scroll when pressing any scroll key (e.g. down arrow, spacebar) with focus on given selector
 * @author Ian McBurnie <ianmcburnie@hotmail.com>
-* @version 0.4.1
+* @version 0.4.2
 * @requires jquery
 * @requires jquery-common-keydown
 */

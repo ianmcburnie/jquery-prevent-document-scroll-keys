@@ -13,6 +13,10 @@ Prevent main page scroll when pressing any scroll key (e.g. down arrow, spacebar
 $(selector).preventDocumentScrollKeys();
 ```
 
+<h2>WARNING: Deprecation Notice</h2>
+
+This plugin is deprecated and scheduled for removal from NPM. Please use `jquery-prevent-scroll-keys` instead.
+
 ## Experimental
 
 This plugin is still in an experimental state, until it reaches v1.0.0 you must consider all minor releases as breaking changes. Patch releases may introduce new features, but will be backwards compatible.
