@@ -1,7 +1,7 @@
 {
   "name": "jquery-prevent-document-scroll-keys",
   "description": "Prevent main document scroll when pressing any scroll key (e.g. down arrow, spacebar) when on a widget",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "scripts": {
     "start": "karma start --autoWatch true --singleRun false",
     "test": "karma start --autoWatch false --singleRun true",
