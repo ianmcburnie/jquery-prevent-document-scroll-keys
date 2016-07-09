@@ -1,21 +1,17 @@
-# jquery-prevent-document-scroll-keys
+# jquery-prevent-scroll-keys
 
 <p>
-    <a href="https://travis-ci.org/ianmcburnie/jquery-prevent-document-scroll-keys"><img src="https://api.travis-ci.org/ianmcburnie/jquery-prevent-document-scroll-keys.svg?branch=master" alt="Build Status" /></a>
-    <a href='https://coveralls.io/github/ianmcburnie/jquery-prevent-document-scroll-keys?branch=master'><img src='https://coveralls.io/repos/ianmcburnie/jquery-prevent-document-scroll-keys/badge.svg?branch=master&service=github' alt='Coverage Status' /></a>
-    <a href="https://david-dm.org/ianmcburnie/jquery-prevent-document-scroll-keys"><img src="https://david-dm.org/ianmcburnie/jquery-prevent-document-scroll-keys.svg" alt="Dependency status" /></a>
-    <a href="https://david-dm.org/ianmcburnie/jquery-prevent-document-scroll-keys#info=devDependencies"><img src="https://david-dm.org/ianmcburnie/jquery-prevent-document-scroll-keys/dev-status.svg" alt="devDependency status" /></a>
+    <a href="https://travis-ci.org/ianmcburnie/jquery-prevent-scroll-keys"><img src="https://api.travis-ci.org/ianmcburnie/jquery-prevent-scroll-keys.svg?branch=master" alt="Build Status" /></a>
+    <a href='https://coveralls.io/github/ianmcburnie/jquery-prevent-scroll-keys?branch=master'><img src='https://coveralls.io/repos/ianmcburnie/jquery-prevent-scroll-keys/badge.svg?branch=master&service=github' alt='Coverage Status' /></a>
+    <a href="https://david-dm.org/ianmcburnie/jquery-prevent-scroll-keys"><img src="https://david-dm.org/ianmcburnie/jquery-prevent-scroll-keys.svg" alt="Dependency status" /></a>
+    <a href="https://david-dm.org/ianmcburnie/jquery-prevent-scroll-keys#info=devDependencies"><img src="https://david-dm.org/ianmcburnie/jquery-prevent-scroll-keys/dev-status.svg" alt="devDependency status" /></a>
 </p>
 
-Prevent main page scroll when pressing any scroll key (e.g. down arrow, spacebar) with focus on given selector.
+Prevent scrolling when pressing any scroll key (e.g. down arrow, spacebar) with focus on given selector.
 
 ```js
-$(selector).preventDocumentScrollKeys();
+$(delegateSelector).preventScrollKeys(delegateDescendantSelector);
 ```
-
-<h2>WARNING: Deprecation Notice</h2>
-
-This plugin is deprecated and scheduled for removal from NPM. Please use `jquery-prevent-scroll-keys` instead.
 
 ## Experimental
 
@@ -23,28 +19,19 @@ This plugin is still in an experimental state, until it reaches v1.0.0 you must 
 
 ## Install
 
-<strike>
-```
-npm install @ebay/jquery-prevent-document-scroll-keys
-```
-</strike>
-
 ```js
-npm install jquery-prevent-document-scroll-keys
+npm install jquery-prevent-scroll-keys
 ```
-
-**NOTE: The @ebay package scope is no longer supported. In order to receive latest NPM updates, please use the non-scoped version of this package.**
 
 ## Example
 
 ```js
-$('.tabs [role=tab]').preventDocumentScrollKeys();
+$('.tabs').preventScrollKeys('[role=tab]');
 ```
 
 ## Dependencies
 
 * [jquery](https://jquery.com/)
-* [jquery-common-keydown](https://github.com/ianmcburnie/jquery-common-keydown)
 
 ## Development
 
@@ -69,8 +56,8 @@ Each test run will generate the following reports:
 
 ## CI Build
 
-https://travis-ci.org/ianmcburnie/jquery-prevent-document-scroll-keys
+https://travis-ci.org/ianmcburnie/jquery-prevent-scroll-keys
 
 ## Code Coverage
 
-https://coveralls.io/github/ianmcburnie/jquery-prevent-document-scroll-keys?branch=master
+https://coveralls.io/github/ianmcburnie/jquery-prevent-scroll-keys?branch=master

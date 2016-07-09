@@ -1,23 +1,23 @@
 {
-  "name": "jquery-prevent-document-scroll-keys",
-  "description": "Prevent main document scroll when pressing any scroll key (e.g. down arrow, spacebar) when on a widget",
-  "version": "0.4.2",
+  "name": "jquery-prevent-scroll-keys",
+  "description": "Prevent scrolling when pressing any scroll key (e.g. down arrow, spacebar) when on a widget",
+  "version": "0.5.0",
   "scripts": {
     "start": "karma start --autoWatch true --singleRun false",
     "test": "karma start --autoWatch false --singleRun true",
     "prepublish": "npm run clean && npm run lint && npm run test && npm run build",
     "build": "npm run jsdoc && npm run minify",
     "clean": "rimraf jsdoc test_reports *.min.js lint.txt",
-    "fix": "eslint jquery.preventdocumentscrollkeys.js --fix",
-    "jsdoc": "jsdoc jquery.preventdocumentscrollkeys.js -d jsdoc",
-    "lint": "eslint jquery.preventdocumentscrollkeys.js > lint.txt",
-    "minify": "jsmin -o jquery.preventdocumentscrollkeys.min.js jquery.preventdocumentscrollkeys.js"
+    "fix": "eslint jquery.preventscrollkeys.js --fix",
+    "jsdoc": "jsdoc jquery.preventscrollkeys.js -d jsdoc",
+    "lint": "eslint jquery.preventscrollkeys.js > lint.txt",
+    "minify": "jsmin -o jquery.preventscrollkeys.min.js jquery.preventscrollkeys.js"
   },
   "pre-commit": "prepublish",
   "author": "Ian McBurnie <ianmcburnie@hotmail.com>",
-  "homepage": "https://github.com/ianmcburnie/jquery-prevent-document-scroll-keys",
+  "homepage": "https://github.com/ianmcburnie/jquery-prevent-scroll-keys",
   "bugs": {
-    "url": "https://github.com/ianmcburnie/jquery-prevent-document-scroll-keys/issues"
+    "url": "https://github.com/ianmcburnie/jquery-prevent-scroll-keys/issues"
   },
   "keywords": [
     "jquery-plugin",
@@ -28,16 +28,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ianmcburnie/jquery-prevent-document-scroll-keys.git"
+    "url": "https://github.com/ianmcburnie/jquery-prevent-scroll-keys.git"
   },
   "license": "ISC",
   "devDependencies": {
     "coveralls": "^2.11.9",
-    "eslint": "^2.12.0",
-    "eslint-config-google": "^0.4.0",
+    "eslint": "^3.0.0",
+    "eslint-config-google": "^0.6.0",
     "jasmine-core": "^2.4.1",
     "jquery": ">=1.11",
-    "jquery-common-keydown": "~0.1.1",
     "jsdoc": "^3.4.0",
     "jsmin": "^1.0.1",
     "karma": "^0.13.22",
@@ -51,8 +50,7 @@
     "rimraf": "^2.5.2"
   },
   "peerDependencies": {
-    "jquery": ">=1.11",
-    "jquery-common-keydown": "~0.1.1"
+    "jquery": ">=1.11"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

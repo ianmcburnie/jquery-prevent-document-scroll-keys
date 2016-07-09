@@ -1,7 +1,6 @@
 {
     "dependencies":[
         {"require-run": "jquery"},
-        "jquery-common-keydown",
-        "jquery.preventdocumentscrollkeys.js"
+        "jquery.preventscrollkeys.js"
     ]
 }
