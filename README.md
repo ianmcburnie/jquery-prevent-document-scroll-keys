@@ -35,16 +35,14 @@ $('.tabs').preventScrollKeys('[role=tab]');
 
 ## Development
 
-Run `npm start` for test driven development. All tests are located in `test.js`.
+Useful NPM task runners:
 
-Execute `npm run` to view all available CLI scripts:
-
-* `npm start` test driven development: watches code and re-tests after any change
+* `npm start` for local browser-sync development.
 * `npm test` runs tests & generates reports (see reports section below)
-* `npm run lint` lints code and reports to jshint.txt
-* `npm run minify` builds minified version of code
-* `npm run build` cleans, lints, tests and minifies (called on `npm prepublish` hook)
-* `npm run clean` deletes all generated test reports and coverage files
+* `npm run tdd` test driven development: watches code and re-tests after any change
+* `npm run build` cleans, lints, tests and minifies
+
+Execute `npm run` to view all available CLI scripts.
 
 ## Reports
 
