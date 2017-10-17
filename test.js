@@ -1,5 +1,4 @@
 describe("jquery.preventdocumentscrollkeys.js", function() {
-
     beforeEach(function() {
         $('body').empty();
     });
@@ -18,5 +17,4 @@ describe("jquery.preventdocumentscrollkeys.js", function() {
         // todo
         return true;
     });
-
 });

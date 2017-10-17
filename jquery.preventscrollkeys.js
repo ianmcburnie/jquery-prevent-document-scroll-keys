@@ -5,7 +5,7 @@
 * @version 0.5.1
 * @requires jquery
 */
-(function($, window, document, undefined) {
+(function($, window, document, undefined) { // eslint-disable-line no-unused-vars
     /**
     * Prevent scrolling when pressing any scroll key (e.g. down arrow, spacebar)
     * with focus on given selector
