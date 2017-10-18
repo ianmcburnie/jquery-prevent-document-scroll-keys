@@ -18,10 +18,6 @@
   },
   "pre-commit": "prepublish",
   "author": "Ian McBurnie <ianmcburnie@hotmail.com>",
-  "homepage": "https://github.com/ianmcburnie/jquery-prevent-scroll-keys",
-  "bugs": {
-    "url": "https://github.com/ianmcburnie/jquery-prevent-scroll-keys/issues"
-  },
   "keywords": [
     "jquery-plugin",
     "ecosystem:jquery",
@@ -31,7 +27,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ianmcburnie/jquery-prevent-scroll-keys.git"
+    "url": "https://github.com/makeup-jquery/jquery-prevent-scroll-keys.git"
   },
   "license": "MIT",
   "devDependencies": {

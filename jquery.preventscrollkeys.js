@@ -2,7 +2,7 @@
 * @file Prevent scrolling when pressing any scroll key (e.g. down arrow,
 * spacebar) with focus on given selector
 * @author Ian McBurnie <ianmcburnie@hotmail.com>
-* @version 1.0.0
+* @version 1.0.1
 * @requires jquery
 */
 (function($, window, document, undefined) { // eslint-disable-line no-unused-vars
