@@ -1,7 +1,7 @@
 {
   "name": "jquery-prevent-scroll-keys",
   "description": "Prevent scrolling when pressing any scroll key (e.g. down arrow, spacebar) when on a widget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "npm run lasso && parallelshell 'npm run server' 'npm run watch'",
     "test": "karma start --autoWatch false --singleRun true",
